@@ -1,0 +1,30 @@
+:root {
+  --color-background-1: #eeeeee;
+  --color-background-2: #cccccc;
+  --color-background-3: #999999;
+  --color-background-4: #07D950;
+  --color-text-1: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body, 
+button {
+  font-family: 'Archivo', sans-serif;
+}
+
+body {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+button {
+  cursor: pointer;
+}
